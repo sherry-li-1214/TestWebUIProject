@@ -7,7 +7,7 @@ import cucumber.api.java.en.When;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 import org.testng.Assert;
-import com.backupassist.mopdev.object.commonobject.* ;
+//import com.backupassist.mopdev.object.commonobject.* ;
 
 
 @CucumberOptions(features = {"E:/MopDevProject/mopdev/src/test/java/com/backupassist/mopdev/features/features"})
@@ -31,6 +31,6 @@ public class BackupMgmtTest extends AbstractTestNGCucumberTests {
 	
    @Then("^Close console$") 
    public void closeConsole() {
-	   Console.closeConnection();
+	  // Console.closeConnection();
    } 
 }
