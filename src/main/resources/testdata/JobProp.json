@@ -1,0 +1,29 @@
+{
+  "job":{
+    "jobName": "Job 5",
+    "jobDescription": "Job Description for Edit a Job",
+    "backupStrategy":"Disk to local storage",
+     "DestinationCloudType":"Amazon AWS",
+     "AWS_S3_Bucket":"sherry",
+     "AWSAccessKeyId":"AKIAJXRM7NGFMNCTVRYQ",
+     "AWSSecretAccessKey":"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",
+     "encryptionpassword":"password",
+     "AzureContainer":"sherryazurebackup",
+     "AzureAccountName":"cloudcityopen6jr",
+     "AzureAccessKey":"LdeFbPrpqo3zSBf9/KiRjnCSMXj4lgW9LlIBYWX6a0wFzHV6KwVYHnPh/yJeeZRB5HZ9v8TlJPZtAI4uq1WMXw==",
+     "ScheduledBackUpTime":"12:30 PM",
+     "DaysForBackUp":"Monday,Wednesday,Friday",
+     "RetentionSchema":"2 weeks"
+  } ,
+  "jobRunProperty":{
+    "runtimes":3,
+    "addedFiles":["a1","a2","a3"],
+    "deleteFiles":["b1","b2","b3"],
+    "TestDataFolder":"testdata"
+  },
+  "jobRecoveryProperty":{
+    "recoverDriver": "I:",
+    "restoreLocation":"C:\\temp2"
+  }
+ 
+}
